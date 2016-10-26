@@ -20,9 +20,11 @@
 
     > 返回的是一个对象{left:num,top:num};
 
-    +取值：var left = $(selector).offset().left;
-    +设置：$(selector).offset({left:100,top:100});
-    
+        + 取值：var left = $(selector).offset().left;
+        + 设置：$(selector).offset({left:100,top:100});
+        + 注意：使用offset进行操作时，如果元素没有设置定位，则会将元素设置为relative定位。
+    + $(selector).position()
+    > 只读属性。获取到的也是一个对象{left:num, top:num}。取值同上    
 
 ## scroll系列![Alt text](./scroll.png)
 * 1.原生javascript中：
