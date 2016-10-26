@@ -13,3 +13,9 @@
     也就是说，offsetLeft/offsetTop是包含外边距在内的
 
 ## scroll系列(./scroll.png)
+* 1.原生javascript中：
+    + 1.1 scrollWidth/scrollHeight
+
+    实际内容的宽度和高度（即包括隐藏了的宽度和高度）
+    + 1.2 scrollTop/scrollLeft
+    已经卷起来的高度和宽度（包括边框在内）
