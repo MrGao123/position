@@ -81,7 +81,7 @@
 * 2.jquery中：
     + $(selector).scrollTop(100)    //设置
     + $(selector).scrollLeft()      //获取
-    + 在这里有一点要注意：$(selector)指的是有***滚动条***的元素，而不是对任何元素相对于文档窗口的滚动距离的设置。
+    + 在这里有一点要注意：$(selector)指的是有***滚动条***的元素，而不是对任何元素，对没有滚动条的元素设置scrollTop和scrollLeft是无效的。
 
 ## client系列![Alt text](./client.png)
 * 原生javascript中：
