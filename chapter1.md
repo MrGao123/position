@@ -15,6 +15,10 @@
     offsetLeft是以border的左上角开始计算；style.left是以margin的左上角开始计算
 
     也就是说，offsetLeft/offsetTop是包含外边距在内的
+* 2.jQuery中：
+    + $(selector).offset()
+
+    返回的是一个对象{left:num,top:num};
 
 ## scroll系列![Alt text](./scroll.png)
 * 1.原生javascript中：
