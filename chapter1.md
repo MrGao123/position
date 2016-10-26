@@ -4,8 +4,6 @@
 * scrollWidth/scrollHeight: width/height + padding
 * clientWidth/clientHeight: width/height + padding
 
-
-
 ## offset系列 ![Alt text](./offset.png)
 * 1.原生javascript中：
     + offsetLeft和offsetTop
