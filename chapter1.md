@@ -78,6 +78,10 @@
     已经卷起来的高度和宽度（包括边框在内）
     + 获取页面滚动坐标：
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+* 2.jquery中：
+    $(selector).scrollTop(100)    //设置
+    $(selector).scrollLeft()      //获取
+
 
 ## client系列![Alt text](./client.png)
     + 网页可视区宽高
