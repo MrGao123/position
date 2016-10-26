@@ -81,6 +81,7 @@
 * 2.jquery中：
     + $(selector).scrollTop(100)    //设置
     + $(selector).scrollLeft()      //获取
+    + 在这里有一点要注意：$(selector)指的是有滚动条的元素，而不是对任何元素相对于文档窗口的滚动距离的设置。
 
 
 ## client系列![Alt text](./client.png)
