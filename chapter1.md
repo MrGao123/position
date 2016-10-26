@@ -1,8 +1,8 @@
 ## offset/scroll/client
 
-* offsetWidth/offsetHeight:width/height + padding + border
-* scrollWidth/scrollHeight:width/height + padding
-*clientWidth/clientHeight:width/height + padding
+* offsetWidth/offsetHeight: width/height + padding + border
+* scrollWidth/scrollHeight: width/height + padding
+* clientWidth/clientHeight: width/height + padding
 
 
 
