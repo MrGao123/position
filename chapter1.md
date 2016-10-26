@@ -84,6 +84,10 @@
     + 在这里有一点要注意：$(selector)指的是有滚动条的元素，而不是对任何元素相对于文档窗口的滚动距离的设置。
 
 ## client系列![Alt text](./client.png)
-+ 网页可视区宽高
+* 原生javascript中：
+    + 网页可视区宽高
     var clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0;
+* jQuery中：
+    + 设置：$(selector).height(100);
+    + 获取：$(selector).width();
 
