@@ -24,7 +24,7 @@
     + 获取页面滚动坐标：
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-## client系列(./client.png)
+## client系列![Alt text](./client.png)
     + 网页可视区宽高
     var clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0;
 
