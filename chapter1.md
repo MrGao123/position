@@ -6,7 +6,7 @@
 
 
 
-## offset系列 url:(./offset.png)
+## offset系列 ![Alt text](./offset.png)
 * 1.原生javascript中：
     + offsetLeft和offsetTop
 
