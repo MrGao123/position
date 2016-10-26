@@ -18,7 +18,7 @@
 * 2.jQuery中：
     + $(selector).offset()
 
-    > 返回的是一个对象{left:num,top:num};
+    > 返回的是一个对象{left:num,top:num};获取元素相对于文档document的位置
 
         + 取值：var left = $(selector).offset().left;
         + 设置：$(selector).offset({left:100,top:100});
