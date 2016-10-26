@@ -58,16 +58,16 @@
                }
         </style>
         <script src="jquery-1.12.4.js"></script>
-</head>
-<body>
-<div><p></p></div>
-<script>
- console.log($('p').offset().left); //250
- console.log($('p').offset().top); //250
- console.log($('p').position().left); //50
- console.log($('p').position().top); //50
-</script>
-</body>
+        </head>
+        <body>
+            <div><p></p></div>
+            <script>
+             console.log($('p').offset().left); //250
+             console.log($('p').offset().top); //250
+             console.log($('p').position().left); //50
+             console.log($('p').position().top); //50
+            </script>
+        </body>
 </html>
 ```
 
