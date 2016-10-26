@@ -9,3 +9,5 @@
     从离自己最近的已经定位了的父亲元素开始算起。
 
     offsetLeft是以border的左上角开始计算；style.left是以margin的左上角开始计算
+
+    也就是说，offsetLeft/offsetTop是包含外边距在内的
