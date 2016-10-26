@@ -30,6 +30,93 @@
 
     ***获取元素相对于最近定位了的父元素***
 
+    ```html
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+
+ <meta charset="UTF-8">
+
+ <title></title>
+
+ <style>
+
+ * {
+
+ margin: 0;
+
+ padding: 0;
+
+ }
+
+ div {
+
+ width: 200px;
+
+ height: 200px;
+
+ background-color: red;
+
+ margin: 200px;
+
+ position: absolute;
+
+ }
+
+ p {
+
+ position: absolute;
+
+ width: 100px;
+
+ height: 100px;
+
+ left: 50px;
+
+ top: 50px;
+
+ background-color: yellow;
+
+ }
+
+ </style>
+
+ <script src="jquery-1.12.4.js"></script>
+
+</head>
+
+<body>
+
+<div>
+
+ <p>
+
+
+
+ </p>
+
+</div>
+
+<script>
+
+ console.log($('p').offset().left); //250
+
+ console.log($('p').offset().top); //250
+
+ console.log($('p').position().left); //50
+
+ console.log($('p').position().top); //50
+
+</script>
+
+</body>
+
+</html>
+
+    ```
+
 ## scroll系列![Alt text](./scroll.png)
 * 1.原生javascript中：
     + scrollTop/scrollLeft
