@@ -16,7 +16,7 @@
 
     也就是说，offsetLeft/offsetTop是包含外边距在内的
 
-## scroll系列(./scroll.png)
+## scroll系列![Alt text](./scroll.png)
 * 1.原生javascript中：
     + scrollTop/scrollLeft
 
