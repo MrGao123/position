@@ -1,3 +1,14 @@
+## offset/scroll/client
+
+* offsetWidth/offsetHeight:width/height + padding + border
+
+* scrollWidth/scrollHeight:width/height + padding
+
+*clientWidth/clientHeight:width/height + padding
+
+
+
+
 ## offset系列(./offset.png)
 * 1.原生javascript中：
     + 1.1 offsetWidth和offsetHeight
@@ -24,5 +35,8 @@
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
 ## client系列(./client.png)
-
+* 1.原生javascript中：
+    + clientWidth/clientHeight
+    
+    可是区域的宽高：内容宽高+padding，不包括
 
