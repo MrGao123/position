@@ -21,8 +21,10 @@
     + scrollTop/scrollLeft
 
     已经卷起来的高度和宽度（包括边框在内）
-    + 1.3 获取页面滚动坐标：
+    + 获取页面滚动坐标：
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
 ## client系列(./client.png)
+    + 网页可视区宽高
+    var clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0;
 
